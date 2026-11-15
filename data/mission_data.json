@@ -1,0 +1,30 @@
+{
+  "project": "ASTRO - Team Falaq - NASA Space Apps Challenge 2026",
+  "note": "Mission facts used inside the game (src/index.html). Checked against NASA NSSDCA and science.nasa.gov mission pages.",
+  "landing_sites": {
+    "spirit": { "name": "Spirit -> Gusev Crater", "lat": -14.57, "lon": 175.47, "source": "NASA Mars Exploration Rovers mission page" },
+    "opportunity": { "name": "Opportunity -> Meridiani Planum", "lat": -1.95, "lon": -5.53, "source": "NASA Mars Exploration Rovers mission page" }
+  },
+  "mission_briefing_mars_twins": [
+    { "step": "Where are we going?", "text": "To Mars. Spirit lands in Gusev Crater. Opportunity lands on the other side, at Meridiani Planum." },
+    { "step": "Why did scientists send it?", "text": "From space we can see dry riverbeds. Gusev may be an old lake. Meridiani has hematite, a mineral that often forms in water. People can't go yet, so robots go first." },
+    { "step": "What is the main mission?", "text": "Land safely, drive, take pictures and test the rocks with science tools. Each rover was built to work for 90 days." },
+    { "step": "What do we hope to discover?", "text": "Clues that water once flowed on Mars. Where there was water, life might once have been possible." }
+  ],
+  "robot_cards": [
+    { "id": "sojourner",    "name": "Sojourner",       "world": "mars", "working_life": "3 months",  "agency": "NASA" },
+    { "id": "viking1",      "name": "Viking 1 Lander", "world": "mars", "working_life": "6 years",   "agency": "NASA" },
+    { "id": "spirit",       "name": "Spirit",          "world": "mars", "working_life": "6 years",   "agency": "NASA" },
+    { "id": "opp",          "name": "Opportunity",     "world": "mars", "working_life": "14 years",  "agency": "NASA" },
+    { "id": "curiosity",    "name": "Curiosity",       "world": "mars", "working_life": "14 years, still exploring", "agency": "NASA" },
+    { "id": "perseverance", "name": "Perseverance",    "world": "mars", "working_life": "5 years, still exploring",  "agency": "NASA" },
+    { "id": "ingenuity",    "name": "Ingenuity",       "world": "mars", "working_life": "33 months", "agency": "NASA" },
+    { "id": "lunokhod1",    "name": "Lunokhod 1",      "world": "moon", "working_life": "10 months", "agency": "Soviet Union (comparison card)" },
+    { "id": "lunokhod2",    "name": "Lunokhod 2",      "world": "moon", "working_life": "4 months",  "agency": "Soviet Union (comparison card)" },
+    { "id": "zhurong",      "name": "Zhurong",         "world": "mars", "working_life": "1 year",    "agency": "CNSA (comparison card)" }
+  ],
+  "headline_figures": [
+    { "value": "796", "label": "items left on the Moon", "source": "NASA History Office" },
+    { "value": "7,119 kg", "label": "of hardware left on Mars", "source": "Kilic, West Virginia University, 2022" }
+  ]
+}
